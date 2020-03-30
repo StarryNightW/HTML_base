@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			
+			p:first-letter{
+				font-size:50px
+			}
+			/*
+			 * 一般before需要结合content样式一起使用，通过content向before或after的位置添加一些内容
+			 */
+			p:before{
+				content:"我会出现在最前边";
+				color: red;
+			}
+			p:after{
+				content:"我在最后面";
+				color:green;
+			}
+		</style>
+	</head>
+	<body>
+		<p>
+			这是一个段落
+		</p>
+	</body>
+</html>

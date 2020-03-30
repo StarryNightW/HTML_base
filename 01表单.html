@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<form action="target.html">
+			<fieldset id="">
+				<legend>用户信息</legend>
+				<label for="um">用户名</label>
+				<input id="um" type="text" name="username" value="请输入内容" /><br /><br /> 密码
+				<input type="password" name="password" /><br /><br />
+
+			</fieldset>
+
+			<fieldset>
+				<legend>用户爱好</legend>
+				性别:<input type="radio" name="sex" value="male" />男
+				<input type="radio" name="sex" value="female" checked="checked" />女
+
+				<br /><br /> 爱好：
+				<input type="checkbox" name="hobby" value="football" />足球
+				<input type="checkbox" name="hobby" value="basketball" />篮球
+				<input type="checkbox" name="hobby" value="badmitain" checked="checked" />羽毛球
+				<input type="checkbox" name="hobby" value="pingpang" />乒乓球<br /><br /> 你喜欢的明星：
+
+				<select name="star">
+					<optgroup label="第一组">
+						<option value="zyl">张云雷</option>
+						<option value="yjl" selected="selected">杨九郎</option>
+						<option value="zyl">张云雷</option>
+						<option value="zyl">张云雷</option>
+						<option value="zyl">张云雷</option>
+						<option value="zyl">张云雷</option>
+
+					</optgroup>
+					<optgroup label="第二组">
+
+						<option value="zyl">张云雷</option>
+						<option value="zyl">张云雷</option>
+						<option value="zyl">张云雷</option>
+						<option value="zyl">张云雷</option>
+					</optgroup>
+
+				</select><br /><br />
+
+			</fieldset>
+
+			<fieldset>
+				<legend>自我描述</legend>
+				自我介绍<textarea name="info"></textarea>
+
+			</fieldset>
+
+			<input type="submit" value="注册" />
+			<input type="reset" value="重置" />
+			<input type="reset" value="按钮" />
+			<button>默认按钮</button>
+		</form>
+	</body>
+
+</html>

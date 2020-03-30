@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.btn{
+				/*将a标签的内联元素转换为块元素，才可以设置宽高*/
+				display: block;
+				width: 129px;
+				height: 38px;
+				background-image: url(img/button/link.png);
+				background-repeat: no-repeat;
+			}
+			.btn:hover{
+				background-image: url(img/button/hover.png);
+			}
+			
+			.btn:active{
+				background-image: url(img/button/active.png);
+			}
+		</style>
+	</head>
+	<body>
+		<a href="#" class = "btn"></a>
+	</body>
+</html>
